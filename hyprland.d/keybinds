@@ -124,7 +124,7 @@ bind = 		$MODKEY,		Page_Up,			workspace,		e-1
 bind = 		$MODKEY SHIFT,		Page_Up,			movetoworkspacesilent,	e-1
 bind = 		$MODKEY,		Page_Down,			workspace,		e+1
 bind = 		$MODKEY SHIFT,		Page_Down,			movetoworkspacesilent,	e+1
-# bind =	$MODKEY,		Insert,				exec,			xdotool type $(grep -v '^#' ~/.local/share/bookmark/urls | dmenu -i -l 50 | cut -d' ' -f1)
+# bind =	$MODKEY,		Insert,				exec,			wtype $(grep -v '^#' ~/.local/share/bookmark/urls | bemenu -i -l 50 | cut -d' ' -f1)
 # disable all keybinds (i use this for when i'm working with virtual machines)
 bind = 		$MODKEY SHIFT,		Insert,				submap,			clean
 submap = clean
