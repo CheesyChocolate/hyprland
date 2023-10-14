@@ -1,0 +1,55 @@
+# Hyprland general configuration file
+
+general {
+	# hide cursor after 5 seconds of inactivity
+	cursor_inactive_timeout = 5
+	# size of the border around windows
+	border_size = 3
+	# gaps between windows
+	gaps_in = 5
+	# gaps between windows and the screen edge
+	gaps_out = 10
+	# window colors
+	col.inactive_border = rgb(444444)
+	col.active_border = rgb(770000)
+	# the dynamic tiling, mode
+	layout = master
+}
+
+misc {
+	disable_hyprland_logo = true
+	disable_splash_rendering = true
+	background_color = rgb(222222)
+	# If DPMS is set to off, wake up the monitors if the mouse moves.
+	mouse_move_enables_dpms = true
+	# Enable window swallowing
+	enable_swallow = true
+	swallow_regex = ^(St)$
+	# Enable session lock restore
+	# allow_session_lock_restore = true
+}
+
+decoration {
+	active_opacity = 1.0
+	inactive_opacity = 1.0
+
+	drop_shadow = false
+
+	blur {
+		enabled = false
+	}
+}
+
+animations {
+	enabled = false
+}
+
+dwindle {
+	pseudotile = yes # master switch for pseudotiling. Enabling is bound to mainMod + P in the keybinds section below
+	preserve_split = yes # you probably want this
+}
+
+master {
+	new_on_top = true
+	smart_resizing = false
+}

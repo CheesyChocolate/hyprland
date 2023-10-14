@@ -1,0 +1,21 @@
+# Input configurations
+input {
+	# set layouts
+	kb_layout = us
+
+	# Map the caps lock key to super, and map the menu key to right super.
+	kb_options = caps:super,altwin:menu_win
+
+	# Decrease key repeat delay to 300ms and increase key repeat rate to 50 per second.
+	repeat_delay = 300
+	repeat_rate = 50
+
+	# Cursor movement will always change focus to the window under the curso.
+	follow_mouse = 1
+
+	sensitivity = 0 # -1.0 - 1.0, 0 means no modification.
+}
+
+gestures {
+	workspace_swipe = true
+}

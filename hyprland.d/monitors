@@ -1,0 +1,8 @@
+# This file is manages the configuration of monitors under hyprland.
+
+# monitor = name,	resolution,	position,	scale
+monitor = ,		highres,	auto,		1
+monitor = HDMI-1,	highres,	auto,		auto
+
+# workspace definitions
+workspace = HDMI-1,	2
