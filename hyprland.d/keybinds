@@ -71,8 +71,8 @@ bind = 		$MODKEY SHIFT,		bracketright,			exec,			mpc seek +60
 bind = 		$MODKEY,		backslash,			workspace,		previous
 # bind = 	$MODKEY SHIFT,		backslash,			exec,
 
-# bind = 	$MODKEY,		a,				togglegaps,
-# bind = 	$MODKEY SHIFT,		a,				defaultgaps,
+bind = 		$MODKEY,		a,				exec,			hyprctl keyword general:gaps_in 0 && hyprctl keyword general:gaps_out 0
+bind = 		$MODKEY SHIFT,		a,				exec,			hyprctl keyword general:gaps_in 5 && hyprctl keyword general:gaps_out 10
 bind = 		$MODKEY,		s,				pin,
 bind = 		$MODKEY SHIFT,		s,				exec,			$TERMINAL -e sudo nmtui
 bind = 		$MODKEY,		d,				exec,			bemenu-run
