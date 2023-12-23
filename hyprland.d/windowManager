@@ -27,6 +27,8 @@ misc {
 	swallow_regex = ^(St)$
 	# Enable session lock restore
 	# allow_session_lock_restore = true
+	# vraiable refresh rete
+	vrr = 1
 }
 
 decoration {
