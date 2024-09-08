@@ -2,7 +2,6 @@
 
 general {
 	# hide cursor after 5 seconds of inactivity
-	cursor_inactive_timeout = 5
 	# size of the border around windows
 	border_size = 3
 	# gaps between windows
@@ -64,4 +63,8 @@ dwindle {
 master {
 	new_on_top = true
 	smart_resizing = false
+}
+
+cursor {
+	inactive_timeout = 5
 }
