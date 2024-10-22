@@ -6,6 +6,9 @@ input {
 	# Map the caps lock key to super, and map the menu key to right super.
 	kb_options = caps:super,altwin:menu_win
 
+	# Enable numlock by default.
+	numlock_by_default = true
+
 	# Decrease key repeat delay to 300ms and increase key repeat rate to 50 per second.
 	repeat_delay = 300
 	repeat_rate = 50
