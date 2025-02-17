@@ -12,6 +12,7 @@ exec-once = ~/.config/hypr/hyprland.d/scripts/resetxdgportal
 exec-once = mpd
 exec-once = dunst
 exec-once = pipeWire
+exec-once = hyprpaper
 
 # start status bar
 exec-once = waybar
