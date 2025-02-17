@@ -16,8 +16,6 @@ input {
 	# Cursor movement will always change focus to the window under the cursor.
 	follow_mouse = 1
 
-	# TODO: disable the feature where the cursor follow the focused window.
-
 	sensitivity = 0 # -1.0 - 1.0, 0 means no modification.
 }
 
@@ -29,4 +27,5 @@ gestures {
 cursor {
 	# hide cursor after 5 seconds of inactivity
 	inactive_timeout = 5
+	no_warps = true
 }
