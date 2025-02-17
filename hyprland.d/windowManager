@@ -68,6 +68,7 @@ dwindle {
 
 master {
 	new_on_top = true
+	new_status = master
 	smart_resizing = false
 }
 
