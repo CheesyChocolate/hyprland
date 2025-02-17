@@ -27,7 +27,7 @@ misc {
 	enable_swallow = true
 	swallow_regex = ^(kitty)$
 	# Enable session lock restore
-	# allow_session_lock_restore = true
+	allow_session_lock_restore = true
 	# vraiable refresh rete
 	vrr = 1
 	# opening a new window, unfullscreen the current one
