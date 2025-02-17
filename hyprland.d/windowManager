@@ -18,8 +18,11 @@ misc {
 	disable_hyprland_logo = true
 	disable_splash_rendering = true
 	background_color = rgb(222222)
-	# If DPMS is set to off, wake up the monitors if the mouse moves.
+	# TODO: disable autoreload
+	# disable_autoreload = true
+	# If DPMS is set to off, wake up the monitors if the mouse moves or a key is pressed.
 	mouse_move_enables_dpms = true
+	key_press_enables_dpms = true
 	# Enable window swallowing
 	enable_swallow = true
 	swallow_regex = ^(kitty)$
