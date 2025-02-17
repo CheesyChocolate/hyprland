@@ -1,7 +1,6 @@
 # Hyprland general configuration file
 
 general {
-	# hide cursor after 5 seconds of inactivity
 	# size of the border around windows
 	border_size = 3
 	# gaps between windows
@@ -23,7 +22,7 @@ misc {
 	mouse_move_enables_dpms = true
 	# Enable window swallowing
 	enable_swallow = true
-	swallow_regex = ^(St)$
+	swallow_regex = ^(kitty)$
 	# Enable session lock restore
 	# allow_session_lock_restore = true
 	# vraiable refresh rete
@@ -67,5 +66,6 @@ master {
 }
 
 cursor {
+	# hide cursor after 5 seconds of inactivity
 	inactive_timeout = 5
 }

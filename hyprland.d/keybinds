@@ -1,6 +1,6 @@
 # Hyprland keybind configuration
 
-$TERMINAL = st
+$TERMINAL = kitty
 $BROWSER = librewolf
 
 $MODKEY = SUPER
