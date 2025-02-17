@@ -30,6 +30,9 @@ misc {
 	# allow_session_lock_restore = true
 	# vraiable refresh rete
 	vrr = 1
+	# opening a new window, unfullscreen the current one
+	new_window_takes_over_fullscreen = 2
+
 }
 
 decoration {
