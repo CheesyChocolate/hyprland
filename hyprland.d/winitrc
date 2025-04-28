@@ -24,6 +24,9 @@ exec-once = wl-paste --type text --watch cliphist store #Stores only text data
 exec-once = wl-paste --type image --watch cliphist store #Stores only image data
 exec-once = rm "$HOME/.cache/cliphist/db" # delete history at every restart
 
+# run startup video asynchronously
+exec-once = nohup mpv --no-audio-display --fullscreen "$XDG_DATA_HOME"/Windows_95_Startup.webm >/dev/null 2>&1 &
+
 # start ssh-agent
 exec-once = eval '$(ssh-agent -s)'
 
