@@ -1,3 +1,5 @@
+# vim: ft=hyprlang
+
 # This file is present to mimic the behavior of zprofile.
 # It's called by Hyprland when it started.
 # the intention is to set up or override environment variables that are only needed by wayland sessions.

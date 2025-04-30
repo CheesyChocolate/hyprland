@@ -1,3 +1,5 @@
+# vim: ft=hyprlang
+
 # This file is manages the configuration of monitors under hyprland.
 
 # monitor = name,	resolution,	position,	scale

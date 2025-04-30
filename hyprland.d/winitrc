@@ -1,3 +1,5 @@
+# vim: ft=hyprlang
+
 # This file is present to mimic the behavior of the xinitrc file.
 # It will be read by Hyprland once at startup.
 

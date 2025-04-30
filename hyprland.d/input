@@ -1,3 +1,5 @@
+# vim: ft=hyprlang
+
 # Input configurations
 input {
 	# set layouts

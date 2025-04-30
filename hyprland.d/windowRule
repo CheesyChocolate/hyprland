@@ -1,4 +1,4 @@
-# vim: ft=config
+# vim: ft=hyprlang
 
 windowrule = 	float, 				initialclass:confirm
 windowrule = 	float, 				initialclass:dialog
