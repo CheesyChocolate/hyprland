@@ -1,0 +1,7 @@
+# vim: ft=hyprlang
+
+# Hyprland keybind configuration
+
+gesture = 3,		horizontal,		workspace
+gesture = 3,		down,			mod: ALT,		close
+gesture = 3,		up,			mod: SUPER,		scale: 1.5,		fullscreen
