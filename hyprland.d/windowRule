@@ -1,18 +1,20 @@
 # vim: ft=hyprlang
 
-windowrule = 	float, 				initialclass:confirm
-windowrule = 	float, 				initialclass:dialog
-windowrule = 	float, 				initialclass:download
-windowrule = 	float, 				initialclass:notification
-windowrule = 	float, 				initialclass:error
-windowrule = 	float, 				initialclass:splash
-windowrule = 	float, 				initialclass:confirmreset
-windowrule = 	float, 				initialtitle:Open File
-windowrule = 	float, 				initialtitle:branchdialog
-windowrule = 	float,				initialtitle:^(Picture-in-Picture)$
+windowrule = float, class:com-group_finity-mascot-Main
 
-windowrule = 	idleinhibit focus,		initialclass:mpv
-windowrule = 	idleinhibit fullscreen,		initialclass:librewolf
+windowrule = 	float, 				initialClass:confirm
+windowrule = 	float, 				initialClass:dialog
+windowrule = 	float, 				initialClass:download
+windowrule = 	float, 				initialClass:notification
+windowrule = 	float, 				initialClass:error
+windowrule = 	float, 				initialClass:splash
+windowrule = 	float, 				initialClass:confirmreset
+windowrule = 	float, 				initialTitle:Open File
+windowrule = 	float, 				initialTitle:branchdialog
+windowrule = 	float,				initialTitle:^(Picture-in-Picture)$
+
+windowrule = 	idleinhibit focus,		initialClass:mpv
+windowrule = 	idleinhibit fullscreen,		initialClass:librewolf
 
 # force the window to be centered, normally it opens on the pointers position
-windowrule = 	center,				initialtitle:File Upload
+windowrule = 	center,				initialTitle:File Upload
