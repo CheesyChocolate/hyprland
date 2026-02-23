@@ -5,8 +5,8 @@ input {
 	# set layouts
 	kb_layout = us
 
-	# Map the caps lock key to super, and map the menu key to right super.
-	kb_options = caps:super,altwin:menu_win
+	# Map the caps lock key to escape, and map the menu key to right super.
+	kb_options = caps:escape,altwin:menu_win
 
 	# Enable numlock by default.
 	numlock_by_default = true
