@@ -1,20 +1,81 @@
 # vim: ft=hyprlang
 
-windowrule = float, class:com-group_finity-mascot-Main
 
-windowrule = 	float, 				initialClass:confirm
-windowrule = 	float, 				initialClass:dialog
-windowrule = 	float, 				initialClass:download
-windowrule = 	float, 				initialClass:notification
-windowrule = 	float, 				initialClass:error
-windowrule = 	float, 				initialClass:splash
-windowrule = 	float, 				initialClass:confirmreset
-windowrule = 	float, 				initialTitle:Open File
-windowrule = 	float, 				initialTitle:branchdialog
-windowrule = 	float,				initialTitle:^(Picture-in-Picture)$
+windowrule {
+	name = float_confirm
+	match:initial_class = confirm
+	float = on
+}
 
-windowrule = 	idleinhibit focus,		initialClass:mpv
-windowrule = 	idleinhibit fullscreen,		initialClass:librewolf
+windowrule {
+	name = float_dialog
+	match:initial_class = dialog
+	float = on
+}
+
+windowrule {
+	name = float_download
+	match:initial_class = download
+	float = on
+}
+
+windowrule {
+	name = float_notification
+	match:initial_class = notification
+	float = on
+}
+
+windowrule {
+	name = float_error
+	match:initial_class = error
+	float = on
+}
+
+windowrule {
+	name = float_splash
+	match:initial_class = splash
+	float = on
+}
+
+windowrule {
+	name = float_confirmreset
+	match:initial_class = confirmreset
+	float = on
+}
+
+windowrule {
+	name = float_open_file
+	match:initial_title = Open File
+	float = on
+}
+
+windowrule {
+	name = float_branchdialog
+	match:initial_title = branchdialog
+	float = on
+}
+
+windowrule {
+	name = float_picture_in_picture
+	match:initial_title = ^(Picture-in-Picture)$
+	float = on
+}
+
+windowrule {
+	name = idleinhibit_mpv
+	match:initial_class = mpv
+	idle_inhibit = focus
+}
+
+windowrule {
+	name = idleinhibit_librewolf
+	match:initial_class = librewolf
+	idle_inhibit = fullscreen
+}
 
 # force the window to be centered, normally it opens on the pointers position
-windowrule = 	center,				initialTitle:File Upload
+windowrule {
+	name = center_file_upload
+	match:initial_title = File Upload
+	center = on
+}
