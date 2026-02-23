@@ -17,6 +17,7 @@ exec-once = dunst
 exec-once = pipewire
 exec-once = hyprpaper
 exec-once = hyprsunset
+exec-once = shimeji-overlayd -se
 
 # start status bar
 exec-once = waybar
